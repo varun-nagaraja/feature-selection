@@ -1,7 +1,6 @@
 A simple framework for comparing Feature Selection techniques
 ============================================================
 * Perform cross-validation experiments to compare feature selection techniques.
-* Try it with some [sample datasets](https://github.com/vkn13/Datasets.git).
 * This project is still in its alpha stage.
 
 Supervised Techniques
@@ -20,8 +19,6 @@ ReliefF (classification) and RReliefF (regression) (`relieffWrapper.m`)
 
 Fisher Score (`fisherScore.m`)
 * Wraps around [`fsFisher.m`](http://featureselection.asu.edu/algorithms/fs_sup_fisher_score.zip) from the ASU Feature Selection toolbox 
-
-Note: I am sorry if the required MATLAB files are not available in the version you own. I have tried my best to use easily available code that I can rely on.
 
 Usage
 -----
