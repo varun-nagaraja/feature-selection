@@ -1,11 +1,21 @@
-A simple framework for comparing Feature Selection techniques
+Feature Selection using Partial Least Squares Regression and Optimal Experiment Design
 ============================================================
-* Perform cross-validation experiments to compare feature selection techniques.
-* This project is still in its alpha stage.
+This repository contains code for the _Optimal Loadings_ feature selection technique proposed in the following paper [pdf](http://www.umiacs.umd.edu/~varun/files/optimal-loadings-IJCNN15.pdf).
+```
+@inproceedings{NagarajaPLS15,
+  author    = {Varun K. Nagaraja and
+               Wael Abd{-}Almageed},
+  title     = {Feature Selection using Partial Least Squares Regression and Optimal
+               Experiment Design},
+  booktitle = {International Joint Conference on Neural Networks, {IJCNN}},
+  year      = {2015}
+}
+```
 
-Supervised Techniques
----------------------
+The determinant maximization is performed using a modified version of the candidate exchange function present in the MATLAB Statistics Toolbox. Since I cannot share the original source of the MATLAB function, I have created a proteced file. Contact me if you want to know the edits. 
 
+Other techniques compared in the paper
+--------------------------------------
 Minimum Redundancy Maximum Relevance (mRMR) (`mRMR.m`)
 * Needs external library. See `mRMR.m` for details.
 * Download a newer version of the [mutual information toolbox](http://www.mathworks.com/matlabcentral/fileexchange/14888)
