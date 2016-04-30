@@ -25,10 +25,10 @@ Partial Least Squares (PLS) regression coefficients (`regCoef.m`)
 
 ReliefF (classification) and RReliefF (regression) (`relieffWrapper.m`) 
 * Wraps around `relieff.m` from the MATLAB stats toolbox. This is available MATLAB r2010b onwards. 
-* Another option for ReliefF is to use the [code](http://featureselection.asu.edu/algorithms/fs_sup_relieff.zip) from ASU Feature Selection toolbox. This uses ReliefF from weka toolbox and hence needs additional libraries. Please see the corresponding documentation.
+* Another option for ReliefF is to use the [code](http://featureselection.asu.edu/old/algorithms/fs_sup_relieff.zip) from ASU Feature Selection toolbox. This uses ReliefF from weka toolbox and hence needs additional libraries. Please see the corresponding documentation.
 
 Fisher Score (`fisherScore.m`)
-* Wraps around [`fsFisher.m`](http://featureselection.asu.edu/algorithms/fs_sup_fisher_score.zip) from the ASU Feature Selection toolbox 
+* Wraps around [`fsFisher.m`](http://featureselection.asu.edu/old/algorithms/fs_sup_fisher_score.zip) from the ASU Feature Selection toolbox 
 
 Usage
 -----
