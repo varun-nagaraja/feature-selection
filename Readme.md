@@ -12,7 +12,7 @@ This repository contains code for the _Optimal Loadings_ feature selection techn
 }
 ```
 
-The determinant maximization is performed using a modified version of the candidate exchange function present in the MATLAB Statistics Toolbox. Since I cannot share the original source of the MATLAB function, I have created a proteced file. Contact me if you want to know the edits. 
+The determinant maximization is performed using a modified version of the candidate exchange function present in the MATLAB Statistics Toolbox. Since I cannot share the original source of the MATLAB function, I have created a protected file. Contact me if you want to know the edits. 
 
 Other techniques compared in the paper
 --------------------------------------
